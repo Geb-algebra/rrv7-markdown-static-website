@@ -9,4 +9,7 @@ export default {
     const paths = getAllArticlesSlug().map((slug) => (`/${slug}`));
     return [ ...getStaticPaths(), ...paths ]
   },
+  routeDiscovery: {
+    mode: "initial",
+  }
 } satisfies Config;
