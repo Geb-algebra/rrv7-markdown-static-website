@@ -10,29 +10,30 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@react-router/node": "^7.1.1",
-    "@react-router/serve": "^7.1.1",
+    "@react-router/node": "7.7.0",
+    "@react-router/serve": "7.7.0",
+    "@tailwindcss/vite": "^4.1.11",
     "cross-env": "^7.0.3",
-    "isbot": "^5.1.17",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.1.1",
-    "rehype-pretty-code": "^0.14.0"
+    "isbot": "^5.1.28",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "7.7.0",
+    "rehype-pretty-code": "^0.14.1"
   },
   "devDependencies": {
     "@mdx-js/rollup": "^3.1.0",
-    "@react-router/dev": "^7.1.1",
-    "@types/node": "^20",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.1",
-    "autoprefixer": "^10.4.20",
-    "esbuild": "^0.24.2",
-    "mdx-bundler": "^10.0.3",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
+    "@react-router/dev": "7.7.0",
+    "@types/node": "^24",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.6",
+    "mdx-bundler": "^10.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
     "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "^3.101.0"
+    "wrangler": "^4.25.0"
   }
 }
